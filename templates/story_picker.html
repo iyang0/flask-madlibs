@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %} Which Madlib do you want? {% endblock %}
+
+{% block content %}
+
+  <h1 class="pt-4 mb-3 text-center">Pick which madlib you want!</h1>
+  <div class="dropdown text-center">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Dropdown button
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <a class="dropdown-item" href="silly">silly story</a>
+      <a class="dropdown-item" href="excited">excited story</a>
+    </div>
+</div>
+
+{% endblock %}
